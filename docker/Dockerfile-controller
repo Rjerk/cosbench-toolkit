@@ -1,0 +1,13 @@
+FROM ubuntu:14.04
+
+RUN apt-get update
+RUN apt-get install -y  openjdk-7-jre curl vim
+
+# COSBench controller port
+EXPOSE 19088
+
+COPY cos /cos
+
+COPY controller.conf /cos/conf/controller.conf
+
+CMD cd /cos;./start-controller.sh; while true; do sleep 1000; done;

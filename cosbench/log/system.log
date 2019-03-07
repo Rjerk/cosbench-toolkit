@@ -1,0 +1,53 @@
+2018-07-25 19:04:04,735 [INFO] [Log4jLogManager] - will append log to file /root/mycosbench/controller/cos/log/system.log
+2018-07-25 19:04:04,756 [INFO] [SimpleWorkloadArchiver] - using /root/mycosbench/controller/cos/archive for storing workload archives
+2018-07-25 19:04:04,757 [INFO] [SimpleWorkloadLoader] - loading workload archives from /root/mycosbench/controller/cos/archive
+2018-07-25 19:04:04,761 [INFO] [SimpleWorkloadArchiver] - using /root/mycosbench/controller/cos/archive for storing workload archives
+2018-07-25 19:04:04,762 [INFO] [SimpleWorkloadLoader] - loading workload archives from /root/mycosbench/controller/cos/archive
+2018-07-25 19:04:04,764 [INFO] [PingDriverRunner] - Trying to ping driver driver1 at http://127.0.0.1:18088/driver with ip=127.0.0.1, port=18088...
+2018-07-25 19:04:04,767 [WARN] [PingDriverRunner] - The driver driver1 at http://127.0.0.1:18088/driver is not reachable at the 1 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:04:04,767 [ERROR] [PingDriverRunner] - below drivers are not alive:
+2018-07-25 19:04:04,767 [ERROR] [PingDriverRunner] - driver1 at http://127.0.0.1:18088/driver
+2018-07-25 19:04:04,767 [INFO] [PingDriverRunner] - begin to sleep for 60 seconds.
+2018-07-25 19:04:54,365 [INFO] [Log4jLogManager] - will append log to file /root/mycosbench/controller/cos/log/system.log
+2018-07-25 19:04:54,387 [INFO] [SimpleWorkloadArchiver] - using /root/mycosbench/controller/cos/archive for storing workload archives
+2018-07-25 19:04:54,388 [INFO] [SimpleWorkloadLoader] - loading workload archives from /root/mycosbench/controller/cos/archive
+2018-07-25 19:04:54,392 [INFO] [SimpleWorkloadArchiver] - using /root/mycosbench/controller/cos/archive for storing workload archives
+2018-07-25 19:04:54,392 [INFO] [SimpleWorkloadLoader] - loading workload archives from /root/mycosbench/controller/cos/archive
+2018-07-25 19:04:54,397 [INFO] [PingDriverRunner] - Trying to ping driver driver1 at http://36.255.223.111:18088/driver with ip=36.255.223.111, port=18088...
+2018-07-25 19:04:54,405 [WARN] [PingDriverRunner] - The driver driver1 at http://36.255.223.111:18088/driver is not reachable at the 1 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:04:54,405 [INFO] [PingDriverRunner] - Trying to ping driver driver2 at http://23.91.98.200:18088/driver with ip=23.91.98.200, port=18088...
+2018-07-25 19:04:54,406 [WARN] [PingDriverRunner] - The driver driver2 at http://23.91.98.200:18088/driver is not reachable at the 1 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:04:54,407 [INFO] [PingDriverRunner] - Trying to ping driver driver3 at http://23.91.98.200:18188/driver with ip=23.91.98.200, port=18188...
+2018-07-25 19:04:54,407 [WARN] [PingDriverRunner] - The driver driver3 at http://23.91.98.200:18188/driver is not reachable at the 1 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:04:54,407 [ERROR] [PingDriverRunner] - below drivers are not alive:
+2018-07-25 19:04:54,408 [ERROR] [PingDriverRunner] - driver1 at http://36.255.223.111:18088/driver
+2018-07-25 19:04:54,409 [ERROR] [PingDriverRunner] - driver2 at http://23.91.98.200:18088/driver
+2018-07-25 19:04:54,409 [ERROR] [PingDriverRunner] - driver3 at http://23.91.98.200:18188/driver
+2018-07-25 19:04:54,409 [INFO] [PingDriverRunner] - begin to sleep for 60 seconds.
+2018-07-25 19:05:54,410 [INFO] [PingDriverRunner] - wake up from sleep.
+2018-07-25 19:05:54,410 [INFO] [PingDriverRunner] - Trying to ping driver driver1 at http://36.255.223.111:18088/driver with ip=36.255.223.111, port=18088...
+2018-07-25 19:05:54,411 [WARN] [PingDriverRunner] - The driver driver1 at http://36.255.223.111:18088/driver is not reachable at the 2 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:05:54,412 [INFO] [PingDriverRunner] - Trying to ping driver driver2 at http://23.91.98.200:18088/driver with ip=23.91.98.200, port=18088...
+2018-07-25 19:05:54,413 [WARN] [PingDriverRunner] - The driver driver2 at http://23.91.98.200:18088/driver is not reachable at the 2 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:05:54,413 [INFO] [PingDriverRunner] - Trying to ping driver driver3 at http://23.91.98.200:18188/driver with ip=23.91.98.200, port=18188...
+2018-07-25 19:05:54,419 [WARN] [PingDriverRunner] - The driver driver3 at http://23.91.98.200:18188/driver is not reachable at the 2 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:05:54,419 [ERROR] [PingDriverRunner] - below drivers are not alive:
+2018-07-25 19:05:54,419 [ERROR] [PingDriverRunner] - driver1 at http://36.255.223.111:18088/driver
+2018-07-25 19:05:54,420 [ERROR] [PingDriverRunner] - driver2 at http://23.91.98.200:18088/driver
+2018-07-25 19:05:54,420 [ERROR] [PingDriverRunner] - driver3 at http://23.91.98.200:18188/driver
+2018-07-25 19:05:54,420 [INFO] [PingDriverRunner] - begin to sleep for 60 seconds.
+2018-07-25 19:06:54,420 [INFO] [PingDriverRunner] - wake up from sleep.
+2018-07-25 19:06:54,421 [INFO] [PingDriverRunner] - Trying to ping driver driver1 at http://36.255.223.111:18088/driver with ip=36.255.223.111, port=18088...
+2018-07-25 19:06:54,422 [WARN] [PingDriverRunner] - The driver driver1 at http://36.255.223.111:18088/driver is not reachable at the 3 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:06:54,422 [WARN] [PingDriverRunner] - The driver driver1 at http://36.255.223.111:18088/driver hits failure tolerance, will extend the heartbeat interval to 60 seconds
+2018-07-25 19:06:54,423 [INFO] [PingDriverRunner] - Trying to ping driver driver2 at http://23.91.98.200:18088/driver with ip=23.91.98.200, port=18088...
+2018-07-25 19:06:54,424 [WARN] [PingDriverRunner] - The driver driver2 at http://23.91.98.200:18088/driver is not reachable at the 3 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:06:54,424 [WARN] [PingDriverRunner] - The driver driver2 at http://23.91.98.200:18088/driver hits failure tolerance, will extend the heartbeat interval to 60 seconds
+2018-07-25 19:06:54,425 [INFO] [PingDriverRunner] - Trying to ping driver driver3 at http://23.91.98.200:18188/driver with ip=23.91.98.200, port=18188...
+2018-07-25 19:06:54,426 [WARN] [PingDriverRunner] - The driver driver3 at http://23.91.98.200:18188/driver is not reachable at the 3 time, with error message: Connection refused (Connection refused)
+2018-07-25 19:06:54,426 [WARN] [PingDriverRunner] - The driver driver3 at http://23.91.98.200:18188/driver hits failure tolerance, will extend the heartbeat interval to 60 seconds
+2018-07-25 19:06:54,426 [ERROR] [PingDriverRunner] - below drivers are not alive:
+2018-07-25 19:06:54,427 [ERROR] [PingDriverRunner] - driver1 at http://36.255.223.111:18088/driver
+2018-07-25 19:06:54,427 [ERROR] [PingDriverRunner] - driver2 at http://23.91.98.200:18088/driver
+2018-07-25 19:06:54,427 [ERROR] [PingDriverRunner] - driver3 at http://23.91.98.200:18188/driver
+2018-07-25 19:06:54,427 [INFO] [PingDriverRunner] - begin to sleep for 60 seconds.

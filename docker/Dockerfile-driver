@@ -1,0 +1,11 @@
+FROM ubuntu:14.04
+
+RUN apt-get update
+RUN apt-get install -y openjdk-7-jre curl vim
+
+# COSBench controller port
+EXPOSE 18088
+
+COPY cos /cos
+
+CMD cd /cos; echo $drivers_num; ./start-driver.sh $drivers_num;  while true; do echo $drivers_num; sleep 1000; done;
